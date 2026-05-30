@@ -1,0 +1,9 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="strategyTitle">
+  <title id="strategyTitle">Go-to-market Strategy Session</title>
+  <rect width="640" height="480" rx="40" fill="#f0f9ff" />
+  <circle cx="180" cy="180" r="110" fill="#38bdf8" opacity="0.18" />
+  <rect x="350" y="120" width="170" height="170" rx="30" fill="#1f4eff" opacity="0.16" />
+  <path d="M350 320c50-60 90-60 140 0" stroke="#0ea5e9" stroke-width="18" fill="none" stroke-linecap="round" />
+  <text x="50%" y="260" text-anchor="middle" fill="#111827" font-family="Inter, sans-serif" font-size="38" font-weight="700">Strategy</text>
+  <text x="50%" y="310" text-anchor="middle" fill="#4b5563" font-family="Inter, sans-serif" font-size="20">Session</text>
+</svg>

@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "name": "Master Bundle #1",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 89.67,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Advanced Brand #2",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 151.17,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Smart Framework #3",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 63.98,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Smart Bundle #4",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 250.12,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Elite Brand #5",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 106.26,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Premium Guide #6",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 58.9,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Smart Toolkit #7",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 36.34,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Advanced Brand #8",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 240.11,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Elite Template #9",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 118.35,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Agile Kit #10",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 162.08,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Advanced Solution #11",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 247.62,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Advanced Framework #12",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 115.78,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Agile Course #13",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 105.27,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Master Consultation #14",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 72.34,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Advanced Strategy #15",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 260.28,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Agile Consultation #16",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 37.05,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Pro Framework #17",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 160.13,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 18,
+    "name": "Advanced Session #18",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 66.21,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Digital Brand #19",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 98.4,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Master Guide #20",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 192.02,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Smart Bundle #21",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 141.71,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Creative Package #22",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 189.61,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Smart Consultation #23",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 98.19,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Pro Guide #24",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 192.64,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Modern Session #25",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 118.07,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 26,
+    "name": "Smart Brand #26",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 150.32,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 27,
+    "name": "Premium Solution #27",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 260.09,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 28,
+    "name": "Elite Solution #28",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 67.59,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 29,
+    "name": "Modern Guide #29",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 42.19,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 30,
+    "name": "Smart System #30",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 94.8,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 31,
+    "name": "Master Solution #31",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 185.15,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 32,
+    "name": "Premium Template #32",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 250.66,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 33,
+    "name": "Advanced Suite #33",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 105.79,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 34,
+    "name": "Creative Session #34",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 49.61,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 35,
+    "name": "Agile Bundle #35",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 74.06,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 36,
+    "name": "Pro Template #36",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 32.13,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 37,
+    "name": "Advanced Solution #37",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 213.17,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 38,
+    "name": "Smart Consultation #38",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 72.76,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 39,
+    "name": "Pro Strategy #39",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 154.88,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 40,
+    "name": "Pro Guide #40",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 228.18,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 41,
+    "name": "Modern Brand #41",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 101.7,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 42,
+    "name": "Master Session #42",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 56.29,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 43,
+    "name": "Smart System #43",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 105.31,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 44,
+    "name": "Digital Brand #44",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 32.56,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 45,
+    "name": "Modern Solution #45",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 16.22,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 46,
+    "name": "Master Workshop #46",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 23.23,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 47,
+    "name": "Digital Brand #47",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 130.46,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 48,
+    "name": "Advanced Template #48",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 208.15,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 49,
+    "name": "Master Guide #49",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 256.24,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 50,
+    "name": "Digital Workshop #50",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 161.35,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 51,
+    "name": "Master Solution #51",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 76.03,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 52,
+    "name": "Agile Template #52",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 188.25,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 53,
+    "name": "Digital Solution #53",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 189.2,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 54,
+    "name": "Agile Brand #54",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 106.8,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 55,
+    "name": "Digital Solution #55",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 28.96,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 56,
+    "name": "Master Guide #56",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 24.52,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 57,
+    "name": "Elite Template #57",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 108.61,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 58,
+    "name": "Master Suite #58",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 124.53,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 59,
+    "name": "Elite Bundle #59",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 29.82,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 60,
+    "name": "Digital Bundle #60",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 137.19,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 61,
+    "name": "Digital Pack #61",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 46.59,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 62,
+    "name": "Premium Brand #62",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 73.42,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 63,
+    "name": "Agile Package #63",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 165.61,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 64,
+    "name": "Modern Session #64",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 71.89,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 65,
+    "name": "Master Bundle #65",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 226.35,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 66,
+    "name": "Premium Package #66",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 75.84,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 67,
+    "name": "Elite Template #67",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 155.19,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 68,
+    "name": "Modern Brand #68",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 87.54,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 69,
+    "name": "Pro System #69",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 146.82,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 70,
+    "name": "Modern Strategy #70",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 74.9,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 71,
+    "name": "Master Pack #71",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 183.71,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 72,
+    "name": "Advanced Kit #72",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 86.25,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 73,
+    "name": "Modern Session #73",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 187.63,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 74,
+    "name": "Creative Guide #74",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 177.86,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 75,
+    "name": "Modern Framework #75",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 103.84,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 76,
+    "name": "Smart Guide #76",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 34.32,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 77,
+    "name": "Agile Guide #77",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 134.61,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 78,
+    "name": "Digital Pack #78",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 133.67,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 79,
+    "name": "Pro Pack #79",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 185.74,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 80,
+    "name": "Premium Template #80",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 218.33,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 81,
+    "name": "Creative Template #81",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 218.87,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 82,
+    "name": "Creative Session #82",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 202.81,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 83,
+    "name": "Modern Bundle #83",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 41.15,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 84,
+    "name": "Premium Design #84",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 85.36,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 85,
+    "name": "Master Guide #85",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 75.6,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 86,
+    "name": "Pro Session #86",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 184.59,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 87,
+    "name": "Premium Toolkit #87",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 162.76,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 88,
+    "name": "Modern Bundle #88",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 107.44,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 89,
+    "name": "Pro Suite #89",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 227.51,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 90,
+    "name": "Pro Kit #90",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 96.46,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 91,
+    "name": "Smart Bundle #91",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 66.42,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 92,
+    "name": "Master Workshop #92",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 40.68,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 93,
+    "name": "Agile Strategy #93",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 190.63,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 94,
+    "name": "Premium Brand #94",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 30.62,
+    "category": "strategy",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 95,
+    "name": "Pro Workshop #95",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 216.59,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 96,
+    "name": "Smart Guide #96",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 155.2,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 97,
+    "name": "Pro Template #97",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 185.88,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 98,
+    "name": "Smart Pack #98",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 112.69,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 99,
+    "name": "Creative System #99",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 172.15,
+    "category": "branding",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=1200&q=80"
+  },
+  {
+    "id": 100,
+    "name": "Modern Course #100",
+    "description": "Professional digital solution for modern businesses and creative teams.",
+    "price": 121.76,
+    "category": "design",
+    "image": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=1200&q=80"
+  }
+]
