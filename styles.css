@@ -139,6 +139,7 @@ textarea {
   padding: 0.95rem 1.6rem;
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-decoration: none;
 }
 
 .button:hover {
