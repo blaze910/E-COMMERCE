@@ -1,5 +1,4 @@
 let products = [];
-const cart = new Map();
 const productGrid = document.getElementById("productGrid");
 const cartToggle = document.getElementById("cartToggle");
 const cartPanel = document.getElementById("cartPanel");
@@ -102,7 +101,7 @@ function highlightText(text, query) {
 }
 
 async function loadProducts() {
-  const response = await fetch("/api/products");
+  const response = await fetch("/data/products.json");
   if (!response.ok) {
     throw new Error("Failed to load products.");
   }
@@ -159,12 +158,13 @@ function renderProducts(filter = "all", searchQuery = "", limit = null) {
 }
 
 function updateCartCount() {
-  const totalQuantity = Array.from(cart.values()).reduce((sum, item) => sum + item.quantity, 0);
+  const totalQuantity = cartManager.getTotalItems();
   cartCountElement.textContent = totalQuantity;
 }
 
 function updateCartPanel() {
   cartContent.innerHTML = "";
+  const cart = cartManager.getCart();
   if (cart.size === 0) {
     cartContent.innerHTML = '<p class="empty-cart">Your cart is empty. Add products to get started.</p>';
     cartTotalElement.textContent = "$0.00";
@@ -219,6 +219,7 @@ async function createCheckoutSession() {
     await fetchStripeConfig();
   }
 
+  const cart = cartManager.getCart();
   const items = Array.from(cart.values()).map((item) => ({
     id: item.product.id,
     quantity: item.quantity,
@@ -264,9 +265,7 @@ productGrid.addEventListener("click", (event) => {
     const input = document.querySelector(`input[data-qty-input="${id}"]`);
     const qty = input ? Math.max(1, Number(input.value)) : 1;
 
-    const cartItem = cart.get(id) || { product, quantity: 0 };
-    cartItem.quantity += qty;
-    cart.set(id, cartItem);
+    cartManager.addItem(product, qty);
     updateCartCount();
     updateCartPanel();
     openCart();
@@ -280,7 +279,7 @@ cartContent.addEventListener("click", (event) => {
 
   if (removeButton) {
     const id = Number(removeButton.dataset.removeId);
-    cart.delete(id);
+    cartManager.removeItem(id);
     updateCartCount();
     updateCartPanel();
     return;
@@ -288,10 +287,10 @@ cartContent.addEventListener("click", (event) => {
 
   if (incBtn) {
     const id = Number(incBtn.dataset.incCart);
+    const cart = cartManager.getCart();
     const item = cart.get(id);
     if (!item) return;
-    item.quantity += 1;
-    cart.set(id, item);
+    cartManager.updateQuantity(id, item.quantity + 1);
     updateCartCount();
     updateCartPanel();
     return;
@@ -299,10 +298,10 @@ cartContent.addEventListener("click", (event) => {
 
   if (decBtn) {
     const id = Number(decBtn.dataset.decCart);
+    const cart = cartManager.getCart();
     const item = cart.get(id);
     if (!item) return;
-    item.quantity = Math.max(1, item.quantity - 1);
-    cart.set(id, item);
+    cartManager.updateQuantity(id, Math.max(1, item.quantity - 1));
     updateCartCount();
     updateCartPanel();
     return;
@@ -320,7 +319,7 @@ cartToggle.addEventListener("click", () => {
 closeCart.addEventListener("click", closeCartPanel);
 overlay.addEventListener("click", closeCartPanel);
 checkoutButton.addEventListener("click", async () => {
-  if (cart.size === 0) {
+  if (cartManager.isEmpty()) {
     alert("Add products to your cart before checkout.");
     return;
   }
