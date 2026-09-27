@@ -23,6 +23,9 @@ type ProductSearch = {
   sort?: Sort;
 };
 
+const ADMIN_DESTINATION = "/admin";
+const ADMIN_ENTRY_KEY = "novaedge:admin-entry";
+
 const SORTS: { value: Sort; label: string }[] = [
   { value: "featured", label: "Featured" },
   { value: "price-asc", label: "Price: low to high" },
@@ -133,7 +136,14 @@ function ProductsPage() {
           <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
           <Input
             value={q}
-            onChange={(event) => setSearch({ q: event.target.value })}
+            onChange={(event) => {
+              if (event.target.value.trim().toLowerCase() === ADMIN_DESTINATION) {
+                window.sessionStorage.setItem(ADMIN_ENTRY_KEY, "1");
+                navigate({ to: ADMIN_DESTINATION });
+                return;
+              }
+              setSearch({ q: event.target.value });
+            }}
             placeholder="Search products, categories or deliverables"
             aria-label="Search products"
             className="h-11 pl-9 pr-9"

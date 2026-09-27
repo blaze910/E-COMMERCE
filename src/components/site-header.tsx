@@ -43,13 +43,6 @@ export function SiteHeader() {
                     {item.label}
                   </Link>
                 ))}
-                <Link
-                  to="/admin"
-                  onClick={() => setMenuOpen(false)}
-                  className="rounded-sm px-3 py-2.5 text-sm text-muted-foreground transition-colors hover:bg-secondary"
-                >
-                  Catalogue admin
-                </Link>
               </nav>
             </SheetContent>
           </Sheet>
@@ -72,9 +65,6 @@ export function SiteHeader() {
           </nav>
 
           <div className="ml-auto flex items-center gap-2">
-            <Button asChild variant="ghost" size="sm" className="hidden lg:inline-flex">
-              <Link to="/admin">Admin</Link>
-            </Button>
             <Button
               variant="outline"
               size="sm"

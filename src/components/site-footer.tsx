@@ -5,12 +5,6 @@ export function SiteFooter() {
     <footer className="mt-24 border-t bg-secondary/40">
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-display text-2xl">NovaEdge</p>
-          <p className="mt-3 max-w-xs text-sm text-muted-foreground">
-            Commerce design, branding, and engineering kits for teams shipping their next launch.
-          </p>
-        </div>
-        <div>
           <p className="eyebrow">Shop</p>
           <ul className="mt-4 space-y-2 text-sm">
             <li>
@@ -41,11 +35,6 @@ export function SiteFooter() {
             <li>
               <Link to="/contact" className="text-muted-foreground hover:text-foreground">
                 Contact
-              </Link>
-            </li>
-            <li>
-              <Link to="/admin" className="text-muted-foreground hover:text-foreground">
-                Catalogue admin
               </Link>
             </li>
           </ul>

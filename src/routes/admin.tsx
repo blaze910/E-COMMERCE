@@ -1,6 +1,6 @@
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, redirect } from "@tanstack/react-router";
 import { Pencil, Plus, RotateCcw, Trash2 } from "lucide-react";
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { toast } from "sonner";
 
 import { Button } from "@/components/ui/button";
@@ -22,10 +22,23 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Textarea } from "@/components/ui/textarea";
+import { authenticateAdmin, verifyAdminSession } from "@/lib/admin-auth.functions";
 import { CATEGORIES, formatPrice, type Category, type Product } from "@/lib/products";
 import { useStore } from "@/lib/store";
 
+const ADMIN_ENTRY_KEY = "novaedge:admin-entry";
+
 export const Route = createFileRoute("/admin")({
+  beforeLoad: () => {
+    let enteredFromSearch = false;
+    try {
+      enteredFromSearch = window.sessionStorage.getItem(ADMIN_ENTRY_KEY) === "1";
+      window.sessionStorage.removeItem(ADMIN_ENTRY_KEY);
+    } catch {
+      enteredFromSearch = false;
+    }
+    if (!enteredFromSearch) throw redirect({ to: "/products" });
+  },
   head: () => ({
     meta: [
       { title: "Catalogue admin — NovaEdge Studio" },
@@ -81,9 +94,46 @@ function toForm(product: Product): FormState {
 
 function AdminPage() {
   const { catalog, saveProduct, deleteProduct, resetCatalog } = useStore();
+  const [authenticated, setAuthenticated] = useState(false);
+  const [checkingSession, setCheckingSession] = useState(true);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [authenticating, setAuthenticating] = useState(false);
+  const [authError, setAuthError] = useState(false);
   const [open, setOpen] = useState(false);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [form, setForm] = useState<FormState>(EMPTY);
+
+  useEffect(() => {
+    let mounted = true;
+    void verifyAdminSession()
+      .then((valid: boolean) => {
+        if (mounted) setAuthenticated(valid);
+      })
+      .catch(() => {})
+      .finally(() => {
+        if (mounted) setCheckingSession(false);
+      });
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
+  const handleAuthentication = async (event: FormEvent) => {
+    event.preventDefault();
+    setAuthenticating(true);
+    setAuthError(false);
+    try {
+      const valid = await authenticateAdmin({ data: { email, password } });
+      if (valid) setAuthenticated(true);
+      else setAuthError(true);
+    } catch {
+      setAuthError(true);
+    } finally {
+      setPassword("");
+      setAuthenticating(false);
+    }
+  };
 
   const startCreate = () => {
     setEditingId(null);
@@ -139,6 +189,57 @@ function AdminPage() {
     toast.success(editingId ? `${product.name} updated` : `${product.name} added`);
     setOpen(false);
   };
+
+  if (!authenticated) {
+    return (
+      <div className="min-h-[65vh]">
+        <Dialog open onOpenChange={() => {}}>
+          <DialogContent
+            className="sm:max-w-sm"
+            onEscapeKeyDown={(event) => event.preventDefault()}
+            onInteractOutside={(event) => event.preventDefault()}
+          >
+            <DialogHeader>
+              <DialogTitle className="font-display text-2xl">Sign in</DialogTitle>
+            </DialogHeader>
+            {checkingSession ? (
+              <div className="h-10 animate-pulse rounded-sm bg-secondary" />
+            ) : (
+              <form onSubmit={handleAuthentication} className="space-y-4">
+                <div className="space-y-2">
+                  <Label htmlFor="admin-email">Email</Label>
+                  <Input
+                    id="admin-email"
+                    type="email"
+                    autoComplete="username"
+                    autoFocus
+                    required
+                    value={email}
+                    onChange={(event) => setEmail(event.target.value)}
+                  />
+                </div>
+                <div className="space-y-2">
+                  <Label htmlFor="admin-password">Password</Label>
+                  <Input
+                    id="admin-password"
+                    type="password"
+                    autoComplete="current-password"
+                    required
+                    value={password}
+                    onChange={(event) => setPassword(event.target.value)}
+                  />
+                </div>
+                {authError && <p className="text-sm text-destructive">Unable to continue.</p>}
+                <Button type="submit" className="w-full" disabled={authenticating}>
+                  {authenticating ? "…" : "Continue"}
+                </Button>
+              </form>
+            )}
+          </DialogContent>
+        </Dialog>
+      </div>
+    );
+  }
 
   return (
     <div className="mx-auto w-full max-w-6xl px-5 py-14">
