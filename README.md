@@ -6,16 +6,16 @@ order history, and a working catalogue admin panel.
 
 ## What's included
 
-| Page | Path | Purpose |
-| --- | --- | --- |
-| Home | `/` | Hero, trust points, featured products, category entry points |
-| Products | `/products` | Search, category filters, sorting, product grid |
+| Page           | Path            | Purpose                                                             |
+| -------------- | --------------- | ------------------------------------------------------------------- |
+| Home           | `/`             | Hero, trust points, featured products, category entry points        |
+| Products       | `/products`     | Search, category filters, sorting, product grid                     |
 | Product detail | `/products/:id` | Full description, what's included, quantity, buy now, related items |
-| Checkout | `/checkout` | Customer details, discount codes, tax, order confirmation |
-| Orders | `/dashboard` | Persistent order history with totals and status |
-| Admin | `/admin` | Add, edit, delete products; reset the catalogue |
-| About | `/about` | How the studio works |
-| Contact | `/contact` | Enquiry form and studio details |
+| Checkout       | `/checkout`     | Customer details, discount codes, tax, order confirmation           |
+| Orders         | `/dashboard`    | Persistent order history with totals and status                     |
+| Admin          | `/admin`        | Add, edit, delete products; reset the catalogue                     |
+| About          | `/about`        | How the studio works                                                |
+| Contact        | `/contact`      | Enquiry form and studio details                                     |
 
 ## Fixes over the original
 
@@ -31,7 +31,9 @@ order history, and a working catalogue admin panel.
 
 ## Tech
 
-React 19, TanStack Start / Router, Vite 7, Tailwind CSS v4, shadcn-style UI components.
+Next.js 16 App Router, React 19, JavaScript/JSX, Tailwind CSS v4, and shadcn-style UI components.
+Routes, layouts, and global styles live in `app/`; page-specific UI and reusable components
+live in `components/`, with store and product logic in `lib/`.
 Cart, orders and catalogue persist in `localStorage` (`novaedge:cart`, `novaedge:orders`,
 `novaedge:catalog`) — there is no payment processor wired up, so checkout records orders
 locally rather than charging a card.
@@ -40,9 +42,13 @@ locally rather than charging a card.
 
 ```bash
 npm install
-npm run dev     # http://localhost:8080
+npm run dev     # http://localhost:3000
 npm run build   # production build
+npm run start   # serve the production build
 ```
+
+Admin credentials are read only by the server from `ADMIN_EMAIL` and `ADMIN_PASSWORD`.
+The admin sign-in session is stored in a signed, HTTP-only cookie.
 
 ## Discount codes
 
