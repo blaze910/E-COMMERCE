@@ -184,7 +184,12 @@ export default function AdminPage() {
   if (!authenticated) {
     return (
       <div className="min-h-[65vh]">
-        <Dialog open onOpenChange={() => {}}>
+        <Dialog
+          open
+          onOpenChange={(isOpen) => {
+            if (!isOpen) void router.replace("/products");
+          }}
+        >
           <DialogContent
             className="sm:max-w-sm"
             onEscapeKeyDown={(event) => event.preventDefault()}
